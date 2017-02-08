@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "TOURNAGE 1",
+        "adress": "46 rue Barrault Paris",
+        "latitude": 48.826294,
+        "longitude": 2.346419
+    },
+    {
+        "id": 2,
+        "name": "TOURNAGE 2",
+        "adress": "41 Quai Pierre Scize 69009 Lyon",
+        "latitude": 45.766228,
+        "longitude": 4.818367
+    },
+    {
+        "id": 3,
+        "name": "TOURNAGE 3",
+        "adress": "39 Cours Pasteur 33000 Bordeaux",
+        "latitude": 44.834802,
+        "longitude": 0.575176
+    },
+    {
+        "id": 4,
+        "name": "TOURNAGE 4",
+        "adress": "34 B rue des Bouchers, 59800 Lille",
+        "latitude": 50.637879,
+        "longitude": 3.058189
+    },
+    {
+        "id": 5,
+        "name": "TOURNAGE 5",
+        "adress": "4 rue Jeanne d'Arc 44000 NANTES",
+        "latitude": 47.220728,
+        "longitude": -1.557527
+    }
+]

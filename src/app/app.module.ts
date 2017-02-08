@@ -11,6 +11,8 @@ import { ResourceComponent } from './resource/resource.component';
 import { AgmCoreModule } from 'angular2-google-maps/core';
 import { DatePickerModule } from 'ng2-datepicker';
 
+import { FetchDataService } from './fetch-data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,7 @@ import { DatePickerModule } from 'ng2-datepicker';
       apiKey: 'AIzaSyBV3EgUQwsjSait-3bAgitlJtRZfDNiuMA'}),
     DatePickerModule
   ],
-  providers: [],
+  providers: [FetchDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

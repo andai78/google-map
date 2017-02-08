@@ -8,20 +8,10 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>WIFI DANS LES TRANSPORTS</td>
-      <td>PARIS</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>TOURNAGE 1</td>
-      <td>PARIS</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>TOURNAGE 2</td>
-      <td>PARIS</td>
+    <tr *ngFor="let r of listResource">
+      <th scope="row">{{r.id}}</th>
+      <td>{{r.name}}</td>
+      <td>{{r.adress}}</td>
     </tr>
   </tbody>
   </table>

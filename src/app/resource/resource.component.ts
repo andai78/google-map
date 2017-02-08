@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { FetchDataService } from '../fetch-data.service';
+import { Resource } from '../classes/resource';
+
+import { Observable } from 'rxjs/Observable';
+
 
 @Component({
   selector: 'app-resource',
@@ -7,9 +12,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResourceComponent implements OnInit {
 
-  constructor() { }
+  listResource: Array<Resource>;
+  constructor(private myServ:FetchDataService) { }
+
+  displayResource(){
+      this.myServ.getResource().subscribe(data => {
+          this.listResource = data;
+      })
+  }
 
   ngOnInit() {
+    this.displayResource()
   }
 
 }
