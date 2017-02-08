@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { DateComponent } from './date/date.component';
+import { ResourceComponent } from './resource/resource.component';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
 import { DatePickerModule } from 'ng2-datepicker';
@@ -14,7 +15,8 @@ import { DatePickerModule } from 'ng2-datepicker';
   declarations: [
     AppComponent,
     MapComponent,
-    DateComponent
+    DateComponent,
+    ResourceComponent
   ],
   imports: [
     BrowserModule,
