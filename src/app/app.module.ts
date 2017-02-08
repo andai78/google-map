@@ -8,17 +8,21 @@ import { MapComponent } from './map/map.component';
 import { DateComponent } from './date/date.component';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
+import { DatePickerModule } from 'ng2-datepicker';
 
 @NgModule({
   declarations: [
-    AppComponent,MapComponent,DateComponent
+    AppComponent,
+    MapComponent,
+    DateComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
      AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBV3EgUQwsjSait-3bAgitlJtRZfDNiuMA'})
+      apiKey: 'AIzaSyBV3EgUQwsjSait-3bAgitlJtRZfDNiuMA'}),
+    DatePickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
