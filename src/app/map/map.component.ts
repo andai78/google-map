@@ -11,14 +11,19 @@ export class MapComponent implements OnInit {
 
   lat: number = 48.856614;
   lng: number = 2.352222;
-  coord: Array<Coord>;
+  coord: Array<Coord> = [];
 
   constructor(private serv:FetchDataService) { }
 
   getLatAndLng(){
     this.serv.getResource().subscribe(data =>{
-        let c = new Coord(data.latitude,data.longitude);
+      for(var i = 0; i<data.length; i++){
+        let c = new Coord(data[i].latitude,data[i].longitude);
+       // console.log(this.coord);
         this.coord.push(c);
+      }
+        
+       console.log(this.coord);
     })
   }
 
