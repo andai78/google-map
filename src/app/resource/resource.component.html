@@ -9,7 +9,7 @@
   </thead>
   <tbody>
     <tr *ngFor="let r of listResource">
-      <th scope="row">{{r.id}}</th>
+      <th scope="row"><span class="plus" (click)="moreInfo()">+</span></th>
       <td>{{r.name}}</td>
       <td>{{r.adress}}</td>
     </tr>
