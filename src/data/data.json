@@ -5,7 +5,14 @@
         "adress": "46 rue Barrault Paris",
         "latitude": 48.826294,
         "longitude": 2.346419,
-        "groupe": "LCI"
+        "groupe": "LCI",
+        "info": {
+            "date_start": "15/02/2017",
+            "hour_start": "13h",
+            "date_end": "15/02/2017",
+            "hour_end": "17h",
+            "comments": "Matériel : 1 caméra et 1 micro"
+        }
     },
     {
         "id": 2,
@@ -13,7 +20,14 @@
         "adress": "41 Quai Pierre Scize 69009 Lyon",
         "latitude": 45.766228,
         "longitude": 4.818367,
-        "groupe": "TF1"
+        "groupe": "TF1",
+        "info": {
+            "date_start": "15/02/2017",
+            "hour_start": "13h",
+            "date_end": "15/02/2017",
+            "hour_end": "17h",
+            "comments": "Matériel : 1 caméra et 1 micro"
+        }
     },
     {
         "id": 3,
@@ -21,7 +35,14 @@
         "adress": "39 Cours Pasteur 33000 Bordeaux",
         "latitude": 44.834802,
         "longitude": 0.575176,
-        "groupe": "LCI"
+        "groupe": "LCI",
+        "info": {
+            "date_start": "15/02/2017",
+            "hour_start": "13h",
+            "date_end": "15/02/2017",
+            "hour_end": "17h",
+            "comments": "Matériel : 1 caméra et 1 micro"
+        }
     },
     {
         "id": 4,
@@ -29,7 +50,14 @@
         "adress": "34 B rue des Bouchers, 59800 Lille",
         "latitude": 50.637879,
         "longitude": 3.058189,
-         "groupe": "TF1"
+         "groupe": "TF1",
+         "info": {
+            "date_start": "15/02/2017",
+            "hour_start": "13h",
+            "date_end": "15/02/2017",
+            "hour_end": "17h",
+            "comments": "Matériel : 1 caméra et 1 micro"
+        }
     },
     {
         "id": 5,
@@ -37,6 +65,13 @@
         "adress": "4 rue Jeanne d'Arc 44000 NANTES",
         "latitude": 47.220728,
         "longitude": -1.557527,
-         "groupe": "TF1"
+         "groupe": "TF1",
+         "info": {
+            "date_start": "15/02/2017",
+            "hour_start": "13h",
+            "date_end": "15/02/2017",
+            "hour_end": "17h",
+            "comments": "Matériel : 1 caméra et 1 micro"
+        }
     }
 ]

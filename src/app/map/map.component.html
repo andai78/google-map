@@ -1,3 +1,12 @@
 <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]=7>
-  <sebm-google-map-marker *ngFor="let c of coord" [latitude]="c.latitude" [longitude]="c.longitude"></sebm-google-map-marker>
+  <sebm-google-map-marker *ngFor="let i of info" [latitude]="i.latitude" [longitude]="i.longitude">
+     <sebm-google-map-info-window>
+         <strong>{{i.groupe}}</strong> - {{i.adress}}
+         <ul>
+           <li>Début tournage : {{i.date_start}} à {{i.hour_start}}</li>
+           <li>Fin tournage : {{i.date_end}} à {{i.hour_end}}</li>
+           <li>{{i.comments}}</li>
+         </ul>
+       </sebm-google-map-info-window>
+  </sebm-google-map-marker>
 </sebm-google-map>
